@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint \"resources/js/**/*.{js,vue,ts}\" --fix --cache",
+        "vue-tsc": "vue-tsc --noEmit -p tsconfig.volar.json"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.0",
+        "@typescript-eslint/eslint-plugin": "^6.4.0",
+        "@typescript-eslint/parser": "^6.4.0",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "autoprefixer": "^10.4.16",
+        "axios": "^1.4.0",
+        "eslint": "^8.47.0",
+        "eslint-import-resolver-typescript": "^3.6.0",
+        "eslint-plugin-import": "^2.28.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+        "eslint-plugin-unused-imports": "^3.0.0",
+        "eslint-plugin-vue": "^9.17.0",
+        "laravel-vite-plugin": "^0.8.0",
+        "postcss": "^8.4.31",
+        "sass": "^1.69.5",
+        "tailwindcss": "^3.3.5",
+        "typescript": "5.1.6",
+        "vite": "^4.4.9",
+        "vue-tsc": "^1.8.8"
+    },
+    "dependencies": {
+        "@heroicons/vue": "^2.0.18",
+        "@script-development/eslint-config-vue": "^0.0.5",
+        "@vueform/multiselect": "github:vueform/multiselect",
+        "oh-vue-icons": "^1.0.0-rc3",
+        "v-calendar": "^3.0.0-alpha.8",
+        "vue": "^3.3.10",
+        "vue-router": "^4.2.4"
+    }
+}
