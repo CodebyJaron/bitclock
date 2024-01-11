@@ -1,4 +1,4 @@
-### BitClock
+# BitClock
 
 BitClock is a clock in & out system designed specifically for Noorderpoort. It is built using the Laravel framework for the backend and Vue.js for the frontend.
 
