@@ -1,7 +1,7 @@
 <template>
     <div
         :class="color.background + ' ' + color.text + ' bottom-' + index * 16"
-        class="fixed right-0 mx-4 flex rounded-lg p-4 mb-4 text-sm"
+        class="fixed right-0 z-10 mx-4 flex rounded-lg p-4 mb-4 text-sm"
         role="alert"
     >
         <svg class="w-5 h-5 inline mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
