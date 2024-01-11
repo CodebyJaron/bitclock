@@ -40,13 +40,14 @@ createApp({
                     toast,
                     onHide: () => hideToastMessage(toast),
                     key: index,
+                    index: index,
                 }),
             );
             return h(
                 'div',
                 {
                     class: 'relative z-50',
-                    style: 'right: 0; bottom: 0;'
+                    style: 'right: 0; bottom: 0;',
                 },
                 toastMessages,
             );
