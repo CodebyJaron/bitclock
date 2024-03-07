@@ -107,7 +107,6 @@ class ClocksController extends Controller
             $status = 'te_laat';
         }
 
-
         $clock = Clocks::create([
             'student_id' => $validated['student_id'],
             'date' => date('Y-m-d'),
